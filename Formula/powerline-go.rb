@@ -2,16 +2,16 @@
 class PowerlineGo < Formula
   desc "A beautiful and useful low-latency prompt for your shell, written in go"
   homepage "https://github.com/cyberbliss/powerline-go"
-  version "2.1.0"
+  version "2.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/cyberbliss/powerline-go/releases/download/v2.1.0/powerline-go_2.1.0_Darwin_x86_64.tar.gz"
-    sha256 "6355ff79d3461cc849d401869e75e788df1935982a9ba1d3c77a73101e0c912f"
+    url "https://github.com/cyberbliss/powerline-go/releases/download/v2.1.1/powerline-go_2.1.1_Darwin_x86_64.tar.gz"
+    sha256 "88c08c1cfcc26e1cf1fafe2ee0ec4db8c41444514e41c3fca41167806528139a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/cyberbliss/powerline-go/releases/download/v2.1.0/powerline-go_2.1.0_Linux_x86_64.tar.gz"
-      sha256 "16fd88df2d62c391488978641d5bb65dd57e83e868390592dd8aee0ab220cdd8"
+      url "https://github.com/cyberbliss/powerline-go/releases/download/v2.1.1/powerline-go_2.1.1_Linux_x86_64.tar.gz"
+      sha256 "d6229b72f2eb95b6cf694bd0921f30e25f37f6169d237fa0adc514949d88bfe0"
     end
   end
 
