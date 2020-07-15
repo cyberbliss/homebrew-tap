@@ -2,16 +2,16 @@
 class KubectlAc < Formula
   desc "An autocomplete wrapper for kubectl"
   homepage "https://github.com/cyberbliss/kubectl-autocli"
-  version "0.1.0"
+  version "0.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/cyberbliss/kubectl-autocli/releases/download/v0.1.0/kubectl-autocli_0.1.0_Darwin_x86_64.tar.gz"
-    sha256 "bd1e214b68ea7a3fa8dda92672b840fabf4fc900f64308a9b63eff7adc78dba6"
+    url "https://github.com/cyberbliss/kubectl-autocli/releases/download/v0.2.0/kubectl-autocli_0.2.0_Darwin_x86_64.tar.gz"
+    sha256 "27cfdbbcc58f25f6b80b45a49f72d0ff35b4b4ca24e9a4fcc5951bccdf547f23"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/cyberbliss/kubectl-autocli/releases/download/v0.1.0/kubectl-autocli_0.1.0_Linux_x86_64.tar.gz"
-      sha256 "7e06fb07c6bd1a7678995840c6f2d2dd822e36b073d73597a2ac75c654f54ec6"
+      url "https://github.com/cyberbliss/kubectl-autocli/releases/download/v0.2.0/kubectl-autocli_0.2.0_Linux_x86_64.tar.gz"
+      sha256 "a65737693093b46c2a16e10b9bd17028d0227891a041d51fa971a171e6f1c2d4"
     end
   end
 
