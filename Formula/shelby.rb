@@ -5,12 +5,12 @@
 class Shelby < Formula
   desc "A fast and minimal Shell Prompt in Go"
   homepage "https://github.com/cyberbliss/shelby"
-  version "1.1.0"
+  version "2.0.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/cyberbliss/shelby/releases/download/v1.1.0/shelby_1.1.0_Darwin_amd64.tar.gz"
-      sha256 "b2a3e4cffdaec9e398edb69d4cdff11bd9c08308b964d2f64855b570646a23d1"
+      url "https://github.com/cyberbliss/shelby/releases/download/v2.0.0/shelby_2.0.0_Darwin_amd64.tar.gz"
+      sha256 "fab7b28e17f53820f6062bee475b88ef935595ddbc93f108f3a87a6a3a031b68"
 
       def install
         bin.install "shelby"%
@@ -20,8 +20,8 @@ class Shelby < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/cyberbliss/shelby/releases/download/v1.1.0/shelby_1.1.0_Linux_amd64.tar.gz"
-      sha256 "2f1284eccad6b98ec1d847b060f1545b5ad07a96ccd55616cabce37f556fca34"
+      url "https://github.com/cyberbliss/shelby/releases/download/v2.0.0/shelby_2.0.0_Linux_amd64.tar.gz"
+      sha256 "11e0467b9bcb89f7ffe298dfa1ea49511ff38ad3ae42294a078ba7be8f7c3724"
 
       def install
         bin.install "shelby"%
